@@ -19,7 +19,7 @@
   <div class="container">
     <div>
       <h1>
-        Learn to code by watching others
+        Learn to code by <br> watching others
       </h1>
       <p>
         See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
@@ -33,10 +33,19 @@
         </p>
       </div>
       <form class="box" id="form">
-        <div class="form-control" id="firstname" ><input type="text"placeholder="Firstname"><small>First Name cannot be empty</small></div>
-        <div class="form-control" id="lastname"><input type="text"  placeholder= "Lastname"><small>Last Name cannot be empty</small></div>
-        <div class="form-control" id="email" ><input type="email"placeholder ="Email" ><small>Email cannot be empty</small></div>
-        <div class="form-control" id="password"><input type="password" placeholder="Password"><small>Password cannot be empty</small></div>
+        <div class="form-control" >
+          <input type="text" placeholder="Firstname" id="firstname"> <img src="images/icon-error.svg" alt="error-icon">
+          <small></small>
+        </div>
+        <div class="form-control">
+          <input type="text"  id="lastname" placeholder= "Lastname"><img src="images/icon-error.svg" alt="error-icon"><small></small>
+        </div>
+        <div class="form-control">
+          <input type="email"  id="email" placeholder ="Email" ><img src="images/icon-error.svg" alt="error-icon"><small></small>
+        </div>
+        <div class="form-control" >
+          <input type="password" id="password" placeholder="Password"><img src="images/icon-error.svg" alt="error-icon"><small></small>
+        </div>
         <button type="submit">Claim your free trial</button>
         <small>By clicking the button, you are agreeing to our <a href="#"> Terms and Services</a></small>
       </form>
@@ -63,6 +72,6 @@
       Coded by <a href="#">Toydaboss</a>.
     </p>
   </footer>
-  <script  src="script.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
